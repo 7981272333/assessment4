@@ -1,0 +1,197 @@
+h1{
+    height:36px;
+    background-image: linear-gradient( to right,red,green, lightgreen,yellow,lightyellow);
+    text-align: center;
+    border:2px solid black;
+    text-decoration: underline;
+}
+.list{
+    height: 86px;
+    width: 1017px;
+    text-align: center;
+    border: 3px solid red;
+    background-color: skyblue;
+    border-radius: 17px;
+    position: relative;
+    right: -436px;
+    
+}
+.Para{
+    height: 155px;
+    background-color: lightseagreen;
+    border: 2px solid red;
+    border-radius: 12px;
+    border-top-width: 1px;
+
+}
+.Para1{
+    height: 79px;
+    background-color: lightblue;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    width: 363px;
+    position: relative;
+    top: 2px;
+    right: -52px;
+}
+.Para2{
+    width: 439px;
+    height: 71px;
+    background-color: lightblue;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    right: 750px;
+    top: 179px;
+}
+.Para3{
+    width: 441px;
+    height: 73px;
+    background-color: lightblue;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    right: 749px;
+    bottom: 340px;
+}
+.Para4{
+    width: 439px;
+    height: 73px;
+    background-color: lightblue;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    right: 39px;
+    top: 180px;
+}
+h2{
+    background-image: linear-gradient(to right,red,orange,gold,orange,red);
+    text-decoration: underline;
+    height: 43px;
+    text-align: center;
+    text-decoration-color:brown;
+}
+.Box{
+    height:309px;
+    background-image: radial-gradient(blue,lightgreen);
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border: 2px solid red;
+    
+}
+.Box1{
+    width: 271px;
+    height: 159px;
+    border: 2px solid red;
+    background: yellow;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    color: red;
+    line-height: 2;
+    border-radius: 40px;
+}
+.Box2{
+    width: 271px;
+    height: 159px;
+    border: 2px solid red;
+    background: yellow;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    color: red;
+    line-height: 2;
+    border-radius: 40px;
+
+}
+.Box3{
+    width: 271px;
+    height: 159px;
+    border: 2px solid red;
+    background: yellow;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    color: red;
+    line-height: 2;
+    border-radius: 40px;
+}
+.Box4{
+    width: 271px;
+    height: 159px;
+    border: 2px solid red;
+    background: yellow;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    color: red;
+    line-height: 2;
+    border-radius: 40px;
+
+}
+.gridcontainer {
+    display: grid;
+    height: 304px;
+    width: 1496px;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-top: 10px;
+    grid-template-columns: 2fr 2fr 2fr 120px;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-rows: 14% 24% 37% 8%;
+}
+.child1 {
+    background-color: crimson;
+    grid-column: 1/5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.child2 {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+}
+.child3 {
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+}
+.child4 {
+    background-color: indigo;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.child5 {
+    background-color: black;
+    grid-column: 4/4;
+    grid-row: 2/4;
+    color: white;
+}
+.child6 {
+    background-color: orange;
+    grid-column: 1/4;
+    color: white;
+    font-weight: bolder;
+    font-size: 23px;
+}
+.child7 {
+    background-color:darkcyan;
+    grid-column: 1/5;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size:24px;
+}
